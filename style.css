@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #140523; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right top,
+    #14030d,
+    #170212,
+    #180218,
+    #17031d,
+    #140523,
+    #110625,
+    #0e0626,
+    #0a0728,
+    #0a0525,
+    #090322,
+    #08021f,
+    #07001c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right top,
+    #14030d,
+    #170212,
+    #180218,
+    #17031d,
+    #140523,
+    #110625,
+    #0e0626,
+    #0a0728,
+    #0a0525,
+    #090322,
+    #08021f,
+    #07001c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#toggle {
+  font-size: 10rem;
+  color: orange;
+  cursor: pointer;
+  transition: all 0.4s ease-out;
+  transition-duration: 0.5s;
+}
+
+.daytime {
+  background: #6dd5fa; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom left, #ffffff, #6dd5fa, #2980b9); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom left,
+    #ffffff,
+    #6dd5fa,
+    #2980b9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
